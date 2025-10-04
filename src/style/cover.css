@@ -100,13 +100,13 @@ body {
   float: inline-start;
   animation: 
     cycleStamps 15s steps(3) infinite,
-    peelOff 15s steps(15, end) infinite;
+    peelOff 2.5s ease forwards;
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite,
-    peelOff 2.5s ease forwards;
+    peel 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s infinite normal none; 
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
@@ -122,6 +122,10 @@ body {
   0%, 30%   { background-position: 0px -100px; }   
   30.01%, 66% { background-position: -100px -100px; } 
   66.01%, 100%{ background-position: -200px -100px; } 
+}
+@keyframes peel {
+  0% { transform: translateY(0) translateX(0); opacity: 1; } 
+  100% { transform: translateY(-50px) translateX(-50px); opacity: 0;} 
 }
 @keyframes peelOff {
   0% {
