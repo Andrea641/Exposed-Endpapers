@@ -59,7 +59,7 @@ body {
     background-image: url(https://wallpapercave.com/wp/wp7908156.jpg);
     background-repeat: repeat;
     background-size: 2048px;
-    animation: 71s diagonal-flow infinite linear;    
+    animation: diagonal-flow infinite linear;    
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-box-decoration-break: clone;
@@ -70,17 +70,17 @@ body {
 }
 .word-animation:nth-child(1) { 
     color: #d76a74;
-    animation-duration: 80s;
+    animation-duration: 60s;
     animation-direction: alternate;
 }
 .word-animation:nth-child(2) { 
   color: salmon;
-  animation-duration: 60s;
+  animation-duration: 50s;
 }
 .word-animation:nth-child(3) { 
   color: cornsilk;
   animation-duration: 75s;
-    animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse;
 }
 @keyframes diagonal-flow {
   0% {
