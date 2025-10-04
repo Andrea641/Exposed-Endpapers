@@ -87,15 +87,22 @@ body {
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
   background-repeat: no-repeat;
   background-size: 300px 300px;
-  animation: 
-    cycleStamps 15s steps(3) infinite, /* background-position animation */
-    pressEffect 15s steps(15) infinite; 
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
-  display: block;
+  display: inline-block;
 }
 
+.stamp:nth-child(1) { 
+  animation: 
+    cycleStamps 15s steps(3) infinite,
+    pressEffect 15s steps(15) infinite; 
+}
+.stamp:nth-child(2) { 
+  animation: 
+    cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
+    pressEffect 15s steps(15) infinite; 
+}
 @keyframes diagonal-flow {
   0% {
     background-position: 100% 100%;
@@ -109,6 +116,11 @@ body {
   0%, 30%   { background-position: 0 0; }   
   30.01%, 66% { background-position: -100px 0; } 
   66.01%, 100%{ background-position: -200px 0; } 
+}
+@keyframes cycleStampsAlt {
+  0%, 30%   { background-position: -100px 0; }   
+  30.01%, 66% { background-position: -100px -100px; } 
+  66.01%, 100%{ background-position: -100px -200px; } 
 }
 
 /* Example element animation */
