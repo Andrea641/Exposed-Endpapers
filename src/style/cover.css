@@ -108,7 +108,7 @@ body {
   animation: 
     cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite,
-    peelOff 15s steps(15) infinite,;
+    peelOff 15s steps(15) infinite;
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
