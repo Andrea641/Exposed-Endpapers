@@ -101,14 +101,14 @@ body {
   animation: 
     cycleStamps 15s steps(3) infinite,
     pressEffect 15s steps(15) infinite, 
-    peelOff 2s ease forwards; 
+    peelOff 3s ease forwards; 
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite,
-    throwStamp 15s steps(3) infinite;
+    peelOff 3s ease forwards;
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
@@ -117,8 +117,8 @@ body {
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
 @keyframes cycleStamps {
   0%, 30%   { background-position: 0 0; }   
-  30.01%, 66% { background-position: -100px 0; } 
-  66.01%, 100%{ background-position: -200px 0; } 
+  30.01%, 66% { background-position: -100px 0; transform: scale(2); transition: ease-in;} 
+  66.01%, 100%{ background-position: -200px 0; transform: scale(0.8); transition: ease-in;} 
 }
 @keyframes cycleStampsAlt {
   0%, 30%   { background-position: -100px 0; }   
