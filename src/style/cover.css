@@ -140,31 +140,31 @@ body {
   /* Stamp 1 peel (step 5) */
   27%, 33.32% {
     opacity: 1;
-    transform-origin: bottom left;
+    transform-origin: top right;
     transform: rotate(30deg) skew(15deg, 10deg) translate(20px, -40px);
   }
   33.33% {
     opacity: 0;
-    transform-origin: bottom left;
+    transform-origin: top right;
     transform: rotate(60deg) skew(30deg, 20deg) translate(80px, -120px);
   }
 
   /* Stamp 2 peel (step 10) */
   60%, 66.65% {
     opacity: 1;
-    transform-origin: bottom left;
+    transform-origin: top right;
     transform: rotate(30deg) skew(15deg, 10deg) translate(20px, -40px);
   }
   66.66% {
     opacity: 0;
-    transform-origin: bottom left;
+    transform-origin: top right;
     transform: rotate(60deg) skew(30deg, 20deg) translate(80px, -120px);
   }
 
   /* Stamp 3 peel (step 15) */
   100% {
     opacity: 0;
-    transform-origin: bottom left;
+    transform-origin: top right;
     transform: rotate(60deg) skew(30deg, 20deg) translate(80px, -120px);
   }
 }
