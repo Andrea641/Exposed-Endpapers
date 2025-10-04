@@ -128,66 +128,25 @@ body {
   66.01%, 100%{ background-position: -100px -200px; } 
 }
 @keyframes peelOff {
-  /* Peel starts near the last frame of a stamp's time slice */
-  0% { /* Stamp 1 normal */ opacity: 1; rotate: 0deg; transform: skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
-  26.66% { /* Peel starts on stamp 1 end */ opacity: 0.8; transform: rotate(-70deg) skew(10deg, 5deg) translate(-60px, 100px); }
-  30% { opacity: 0; /* Fully peeled off before next stamp */ }
-
-  30.01% { /* Stamp 2 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
-  51.66% { /* Peel starts on stamp 2 end */ opacity: 0.8; transform: rotate(-70deg) skew(10deg, 5deg) translate(-60px, 100px); }
-  66% { opacity: 0; }
-
-  66.01% { /* Stamp 3 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
-  96.40% { /* Peel starts on stamp 3 end */ opacity: 1; transform: rotate(-70deg) skew(10deg, 5deg) translate(-60px, 100px); }
-  100% { opacity: 0; }
-}
-/* Example element animation */
-@keyframes throwStamp {
-   0%, 6.66%   {
+  0% {
+    opacity: 1;
+    transform-origin: bottom left;
+    /* flat, normal */
+    transform: rotate(0deg) skew(0deg, 0deg) translate(0, 0);
+  }
+  40% {
+    /* start peeling diagonally */
+    transform: rotate(15deg) skew(10deg, 5deg) translate(10px, -15px);
+  }
+  70% {
+    /* bend backwards (inverse skew) */
+    transform: rotate(40deg) skew(-10deg, -5deg) translate(25px, -40px);
+    opacity: 0.7;
+  }
+  100% {
+    /* gone */
+    transform: rotate(75deg) skew(0deg, 0deg) translate(50px, -90px);
     opacity: 0;
-    transform: /*translateY(200px)*/ rotate(-60deg) scale(0.5);
-  }
-  6.67%, 30%   {
-    opacity: 1;
-    transform: /*translateY(-10px)*/ rotate(15deg) scale(1.1);
-  }
-  30.01%, 40% {
-    transform: rotate(-10deg) scale(0.95);
-  } 
-  40.01%, 66.65% {
-    box-shadow: none;
-  }
-  66.01%, 100% {
-    opacity: 1;
-    transform: rotate(0) scale(1);
-  }
-}
-
-/* Press effect synced with frame change */
-@keyframes pressEffect {
-  0%, 6.66% {
-    box-shadow: inset 0 4px 10px rgba(0,0,0,0.6);
-    transform: translateY(3px);
-  }
-  6.67%, 30% {
-    box-shadow: none;
-    transform: translateY(0) ;
-  }
-  30.01%, 40% {
-    box-shadow: inset 0 4px 10px rgba(0,0,0,0.6) ;
-    transform: translateY(3px) ;
-  } 
-  40.01%, 66.65% {
-    box-shadow: none;
-    transform: translateY(0) ;
-  }
-  66.66%, 73.33% {
-    box-shadow: inset 0 4px 10px rgba(0,0,0,0.6) ;
-    transform: translateY(3px) ;
-  }
-  73.34%, 100% {
-    box-shadow: none;
-    transform: translateY(0) ;
   }
 }
 
