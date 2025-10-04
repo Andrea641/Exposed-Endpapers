@@ -81,7 +81,9 @@ body {
   background-image: url(https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/3d/d7/5c/3dd75c43-3481-436c-195c-c1a67ff98c40/artwork.jpg/1200x1200bf-60.jpg) !important;
   animation-duration: 40s;
 }
-.cover-heading .stamp { 
+.cover .stamp { 
+  position: fixed;
+  bottom: 10px;
   width: 100px;
   height: 100px;
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
@@ -93,8 +95,6 @@ body {
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
-  display: inline-flex;
-  align-items: baseline;
 }
 
 @keyframes diagonal-flow {
