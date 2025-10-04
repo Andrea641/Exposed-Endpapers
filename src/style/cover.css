@@ -56,7 +56,7 @@ body {
   text-align: center;
 }.word-animation {
     background-color: #101d24;
-    background-image: url(https://wallpapercave.com/wp/wp7908156.jpg);
+    background-image: url(https://wallpapercave.com/wp/wp6871302.png);
     background-repeat: repeat;
     background-size: 2048px;
     animation: diagonal-flow infinite linear;    
@@ -84,8 +84,8 @@ body {
 }
 .cover-heading .stamp { 
   display: inline-flex;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
   background-repeat: no-repeat;
   background-size: 600px 600px;
@@ -101,7 +101,7 @@ body {
   background: radial-gradient(circle, transparent 15px, #bbb 16px);
   background-size: 50px 40px;
   background-position: -20px -20px;
-  width: 100%;
+  width: 100px;
   height: 40px;
   z-index: -1;
 }
@@ -111,7 +111,7 @@ body {
   background: radial-gradient(circle, transparent 15px, #bbb 16px);
   background-size: 50px 40px;
   background-position: -20px -20px;
-  width: 100%;
+  width: 200px;
   height: 40px;
   z-index: -1;
 }
