@@ -126,15 +126,15 @@ body {
 @keyframes peelOff {
   /* Peel starts near the last frame of a stamp's time slice */
   0% { /* Stamp 1 normal */ opacity: 1; rotate: 0deg; transform: skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
-  26.66% { /* Peel starts on stamp 1 end */ opacity: 0.8; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
+  26.66% { /* Peel starts on stamp 1 end */ opacity: 0.8; transform: rotate(-70deg) skew(10deg, 5deg) translate(-60px, 100px); }
   30% { opacity: 0; /* Fully peeled off before next stamp */ }
 
   30.01% { /* Stamp 2 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
-  51.66% { /* Peel starts on stamp 2 end */ opacity: 0.8; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
+  51.66% { /* Peel starts on stamp 2 end */ opacity: 0.8; transform: rotate(-70deg) skew(10deg, 5deg) translate(-60px, 100px); }
   66% { opacity: 0; }
 
   66.01% { /* Stamp 3 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
-  96.40% { /* Peel starts on stamp 3 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
+  96.40% { /* Peel starts on stamp 3 end */ opacity: 1; transform: rotate(-70deg) skew(10deg, 5deg) translate(-60px, 100px); }
   100% { opacity: 0; }
 }
 /* Example element animation */
