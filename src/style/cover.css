@@ -106,7 +106,7 @@ body {
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite, 
-    peelOff 2.5s ease forwards;
+    peelOff 15s steps(15, end) infinite;
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
@@ -119,8 +119,8 @@ body {
   66.67%, 100% { background-position: -200px 0; }
 }
 @keyframes cycleStampsAlt {
-  0%, 30%   { background-position: 0px -100px; }   
-  30.01%, 66% { background-position: -100px -100px; } 
+  0%, 33%   { background-position: 0px -100px; }   
+  33.01%, 66% { background-position: -100px -100px; } 
   66.01%, 100%{ background-position: -200px -100px; } 
 }
 @keyframes peel {
