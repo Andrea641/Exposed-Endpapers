@@ -45,6 +45,7 @@ body {
 
 .cover-container {
   max-width: 42vw;
+  min-width: 35vw;
   display: flex;
   flex-direction: column;
 }
