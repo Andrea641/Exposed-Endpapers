@@ -113,7 +113,7 @@ body {
     background-position: 100% 100%;
   }
   100% {
-      background-position: 0px 0px;
+    background-position: 0px 0px;
   }
 }
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
@@ -156,14 +156,11 @@ body {
     box-shadow: inset 0 4px 8px rgba(0,0,0,0.5);
     transform: translateY(2px);
   }
-  6.67%, 33.31% {
+  6.67%, 30% {
     box-shadow: none;
     transform: translateY(0);
   }
-  33.32%, 33.33% {
-    opacity: 0;
-  }
-  33.33%, 40% {
+  30.01%, 40% {
     opacity: 1;
     box-shadow: inset 0 4px 8px rgba(0,0,0,0.5);
     transform: translateY(2px);
