@@ -54,9 +54,6 @@ body {
   font-weight: 900;
   font-size: 60px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
 }.word-animation {
     background-color: white;
     background-image: url(https://wallpaperaccess.com/full/4528446.jpg);
@@ -86,7 +83,6 @@ body {
   animation-duration: 40s;
 }
 .cover-heading .stamp { 
-  display: inline-flex;
   width: 100px;
   height: 100px;
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
@@ -98,6 +94,9 @@ body {
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 @keyframes diagonal-flow {
