@@ -82,7 +82,7 @@ body {
   animation-duration: 75s;
   animation-direction: alternate-reverse;
 }
-.word-animation .stamp { 
+.cover-heading .stamp { 
   width: 100px;
   height: 100px;
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
@@ -92,7 +92,7 @@ body {
   box-decoration-break: clone;
   margin-right: -5px;
 }
-.word-animation .stamp:hover { margin-right: unset !important; }
+.cover-heading .stamp:hover { margin-right: unset !important; }
 @keyframes diagonal-flow {
   0% {
     background-position: 100% 100%;
