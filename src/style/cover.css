@@ -118,7 +118,8 @@ body {
   height: 40px;
   z-index: -1;
 }*/
-.cover-heading .stamp:hover { margin-right: unset !important; }
+.cover-heading .stamp:hover { box-shadow: inset 0 5px 10px rgba(0,0,0,0.5); transform: translateY(2px); }
+
 @keyframes diagonal-flow {
   0% {
     background-position: 100% 100%;
