@@ -75,12 +75,12 @@ body {
   color: yellow;
   background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
   animation-duration: 20s;
-}
+}/*
 .word-animation:nth-of-type(3) { 
   color: white;
   background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
   animation-duration: 40s;
-}
+}*/
 .cover .stamp { 
   width: 100px;
   height: 100px;
