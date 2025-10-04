@@ -82,6 +82,17 @@ body {
   animation-duration: 75s;
   animation-direction: alternate-reverse;
 }
+.word-animation .stamp { 
+  width: 100px;
+  height: 100px;
+  background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
+  background-repeat: no-repeat;
+  animation: cycleStamps 4s steps(4) infinite, /* background-position animation */
+            floatMove 6s ease-in-out infinite; /* element animation */  
+  box-decoration-break: clone;
+  margin-right: -5px;
+}
+.word-animation .stamp:hover { margin-right: unset !important; }
 @keyframes diagonal-flow {
   0% {
     background-position: 100% 100%;
@@ -90,6 +101,18 @@ body {
       background-position: 0px 0px;
   }
 }
+/* Animate background-position to cycle through a 4-frame horizontal sprite */
+@keyframes cycleStamps {
+  0%   { background-position: 0 0; }
+  100% { background-position: -400px 0; } /* assuming 4 stamps of 100px width */
+}
+
+/* Example element animation */
+@keyframes floatMove {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-10px); }
+}
+
 /*
  * Header
  */
