@@ -108,7 +108,7 @@ body {
   animation: 
     cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite,
-    throwStamp 15s  steps(3) ease forwards;
+    throwStamp 15s steps(3) infinite;
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
