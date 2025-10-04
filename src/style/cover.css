@@ -56,14 +56,14 @@ body {
   text-align: center;
 }.word-animation {
     background-color: #101d24;
-    background-image: url(https://play-lh.googleusercontent.com/P-Wx46NVJp4Q59N1QErRJRfWKzfNrOOGKihOWicSk7xN3xNPDD7B3VxgrDZgeLR6KeI=w1024-h500);
+    background-image: url(https://sthgroup.com/wp-content/uploads/2022/11/img-blog-3-1024x683.jpg);
     background-repeat: repeat;
     background-size: 2048px;
     animation: 71s diagonal-flow infinite linear;    
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-box-decoration-break: clone;
+    background-clip: text;
     box-decoration-break: clone;
     padding-right: 5px;
     margin-right: -5px;
@@ -74,7 +74,7 @@ body {
     background-position: 128px 128px;
   }
   100% {
-      background-position: -1024px 500px;
+      background-position: -1024px 700px;
   }
 }
 /*
