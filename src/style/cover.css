@@ -124,7 +124,7 @@ body {
   66.01%, 100%{ background-position: -200px -100px; } 
 }
 @keyframes peel {
-  0%, 50% { transform: translateY(0) translateX(0); opacity: 1; } 
+  0%, 40% { transform: translateY(0) translateX(0); opacity: 1; } 
   51%, 100% { transform: translateY(-50px) translateX(-50px); opacity: 0;} 
 }
 @keyframes peelOff {
