@@ -106,7 +106,8 @@ body {
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite, 
-    peelOff 15s steps(15, end) infinite;
+    peelOff 15s ease-out infinite;
+  will-change: transform, opacity, background-position;
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
@@ -131,7 +132,7 @@ body {
   /* Normal display for first 4 steps of stamp (no peel) */
   0%, 26.66%, 33.33%, 59.99%, 66.66%, 99.99% {
     opacity: 1;
-    transform-origin: bottom left;
+    transform-origin: top right;
     transform: rotate(0deg) skew(0deg, 0deg) translate(0, 0);
   }
 
