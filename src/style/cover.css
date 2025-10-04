@@ -114,13 +114,9 @@ body {
 }
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
 @keyframes cycleStamps {
-  0% { background-position: 0 0; }
-  6.66% { background-position: 0 0; }
-  20% { background-position: -100px 0; }
-  26.66% { background-position: -100px 0; }
-  40% { background-position: -200px 0; }
-  46.66% { background-position: -200px 0; }
-  100% { background-position: -200px 0; }
+  0%, 33.33% { background-position: 0 0; }
+  33.34%, 66.66% { background-position: -100px 0; }
+  66.67%, 100% { background-position: -200px 0; }
 }
 @keyframes cycleStampsAlt {
   0%, 30%   { background-position: -100px 0; }   
