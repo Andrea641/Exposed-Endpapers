@@ -72,6 +72,7 @@ body {
   /*background-image: url(https://wallpaperaccess.com/full/4528446.jpg) !important;*/
   animation-duration: 30s;
   animation-delay: 10s;
+  animation-direction: reverse;
 }
 .word-animation:nth-of-type(2) { 
   color: yellow;
@@ -95,13 +96,13 @@ body {
   display: inline-block;
 }
 
-.stamp:nth-child(1) { 
+.stamp:nth-of-type(1) { 
   animation: 
     cycleStamps 15s steps(3) infinite,
     pressEffect 15s steps(15) infinite, 
     throwStamp 1s ease forwards; 
 }
-.stamp:nth-child(2) { 
+.stamp:nth-of-type(2) { 
   animation: 
     cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite,
