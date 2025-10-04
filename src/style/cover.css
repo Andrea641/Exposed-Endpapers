@@ -62,7 +62,8 @@ body {
   flex-direction: row;
   width: 100%;
   height: 100%;
-  justify-contents: center;
+  justify-content: center;
+  align-items: baseline;
 }
 .masthead-brand {
   margin-bottom: 0;
