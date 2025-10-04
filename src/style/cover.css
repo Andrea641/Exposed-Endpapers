@@ -57,7 +57,7 @@ body {
 }.word-animation {
     background-color: white;
     background-image: url(https://wallpaperaccess.com/full/4528446.jpg);
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-size: 6000px 4000px;
     animation: diagonal-flow infinite linear;    
     -webkit-text-fill-color: transparent;
@@ -82,7 +82,6 @@ body {
   color: cornsilk;
   background-image: url(https://wallpaperaccess.com/full/11410009.jpg);
   animation-duration: 40s;
-  animation-direction: alternate-reverse;
 }
 .cover-heading .stamp { 
   display: inline-flex;
