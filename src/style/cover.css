@@ -71,6 +71,7 @@ body {
   background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
   /*background-image: url(https://wallpaperaccess.com/full/4528446.jpg) !important;*/
   animation-duration: 30s;
+  animation-delay: 10s;
 }
 .word-animation:nth-of-type(2) { 
   color: yellow;
