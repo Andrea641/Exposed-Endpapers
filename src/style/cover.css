@@ -101,14 +101,14 @@ body {
   animation: 
     cycleStamps 15s steps(3) infinite,
     pressEffect 15s steps(15) infinite, 
-    peelOff 3s ease forwards; 
+    peelOff 3s ease forwards infinite; 
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite,
-    peelOff 3s ease forwards;
+    peelOff 3s ease forwards infinite;
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
