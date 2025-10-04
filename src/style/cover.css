@@ -71,7 +71,7 @@ body {
 .word-animation:nth-child(1) { 
     color: #d76a74;
     animation-duration: 60s;
-    animation-direction: alternate;
+    animation-direction: reverse;
 }
 .word-animation:nth-child(2) { 
   color: yellow;
@@ -128,7 +128,7 @@ body {
 /* Animate background-position to cycle through a 4-frame horizontal sprite */
 @keyframes cycleStamps {
   0%   { background-position: 0 0; }
-  100% { background-position: -400px 0; } /* assuming 4 stamps of 100px width */
+  100% { background-position: -300px 0; } /* assuming 4 stamps of 100px width */
 }
 
 /* Example element animation */
