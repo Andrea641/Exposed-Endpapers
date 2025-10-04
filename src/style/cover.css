@@ -64,10 +64,8 @@ body {
     background-clip: text;
     box-decoration-break: clone;
     padding-right: 5px;
-    margin-right: -5px;
-    text-align: center;
 }
-.word-animation:nth-of-type(1) { 
+.word-animation:nth-of-type(1) { /* "Recover" */
   color: #d76a74;
   background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
   /*background-image: url(https://wallpaperaccess.com/full/4528446.jpg) !important;*/
@@ -75,22 +73,17 @@ body {
   animation-delay: 10s;
   animation-direction: reverse;
 }
-.word-animation:nth-of-type(2) { 
+.word-animation:nth-of-type(2) { /* "Shared" */
+  color: yellow;
+  background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
+  animation-duration: 20s;
+  margin-left: -100px;
+}
+.word-animation:nth-of-type(3) { /* "Journaling" */
   color: yellow;
   background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
   animation-duration: 20s;
 }
-.word-animation:nth-of-type(3) { 
-  color: yellow;
-  background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
-  animation-duration: 20s;
-}
-/*
-.word-animation:nth-of-type(3) { 
-  color: white;
-  background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
-  animation-duration: 40s;
-}*/
 .cover .stamp { 
   width: 100px;
   height: 100px;
@@ -118,12 +111,8 @@ body {
     throwStamp 1s ease forwards;
 }
 @keyframes diagonal-flow {
-  0% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0px 0px;
-  }
+  0%   {   background-position: 100% 100%;  }
+  100% {   background-position: 0px 0px;  }
 }
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
 @keyframes cycleStamps {
