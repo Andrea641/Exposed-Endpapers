@@ -129,44 +129,28 @@ body {
   51%, 100% { transform: translateY(-50px) translateX(-50px); opacity: 0;} 
 }
 @keyframes peelOff {
-  /* Normal display for first 4 steps of stamp (no peel) */
-  0%, 26.66%, 33.33%, 59.99%, 66.66%, 99.99% {
+  0%, 79% {
     opacity: 1;
-    transform-origin: top right;
+    transform-origin: bottom left;
     transform: rotate(0deg) skew(0deg, 0deg) translate(0, 0);
   }
-
-  /* Peel happening only at the last step of each stamp */
-  
-  /* Stamp 1 peel (step 5) */
-  27%, 33.32% {
+  80% {
+    /* start peeling */
     opacity: 1;
-    transform-origin: top right;
-    transform: rotate(30deg) skew(15deg, 10deg) translate(20px, -40px);
+    transform-origin: bottom left;
+    transform: rotate(20deg) skew(5deg, 2deg) translate(15px, -30px);
   }
-  33.33% {
-    opacity: 0;
-    transform-origin: top right;
-    transform: rotate(60deg) skew(30deg, 20deg) translate(80px, -120px);
+  90% {
+    /* peel more, skew increases */
+    opacity: 0.8;
+    transform-origin: bottom left;
+    transform: rotate(50deg) skew(15deg, 10deg) translate(50px, -90px);
   }
-
-  /* Stamp 2 peel (step 10) */
-  60%, 66.65% {
-    opacity: 1;
-    transform-origin: top right;
-    transform: rotate(30deg) skew(15deg, 10deg) translate(20px, -40px);
-  }
-  66.66% {
-    opacity: 0;
-    transform-origin: top right;
-    transform: rotate(60deg) skew(30deg, 20deg) translate(80px, -120px);
-  }
-
-  /* Stamp 3 peel (step 15) */
   100% {
+    /* fully peeled off and vanished */
     opacity: 0;
-    transform-origin: top right;
-    transform: rotate(60deg) skew(30deg, 20deg) translate(80px, -120px);
+    transform-origin: bottom left;
+    transform: rotate(110deg) skew(20deg, 15deg) translate(120px, -200px);
   }
 }
 
