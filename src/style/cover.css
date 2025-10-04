@@ -99,6 +99,13 @@ body {
   align-items: center;
 }
 .cover-heading .stamp:hover { box-shadow: inset 0 5px 10px rgba(0,0,0,0.5); transform: translateY(2px); }
+.stamp:nth-child(1) { 
+  animation: move;
+  rotate: -45deg;
+}.stamp:nth-child(2) { 
+  rotate: 45deg;
+  animation: move;
+}
 
 @keyframes diagonal-flow {
   0% {
