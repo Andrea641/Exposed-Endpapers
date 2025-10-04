@@ -91,7 +91,7 @@ body {
   background-size: 300px 300px;
   animation: 
     cycleStamps 3s steps(3) infinite, /* background-position animation */
-    pressEffect 3s infinite,
+    pressEffect 3s steps(3) infinite,
     floatMove 6s ease-in-out infinite; /* element animation */  
   box-decoration-break: clone;
   margin-right: -5px;
