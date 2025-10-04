@@ -57,7 +57,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.masthead .inner{
+.masthead > .inner{
   display: flex;
   flex-direction: row;
   width: 100%;
