@@ -45,6 +45,8 @@ body {
 
 .cover-container {
   max-width: 42em;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -55,6 +57,13 @@ body {
   margin-bottom: 2rem;
 }
 
+.masthead .inner{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-contents: center;
+}
 .masthead-brand {
   margin-bottom: 0;
 }
