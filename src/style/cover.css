@@ -100,14 +100,12 @@ body {
   float: inline-start;
   animation: 
     cycleStamps 15s steps(3) infinite,
-    pressEffect 15s steps(15) infinite, 
     peelOff 15s steps(15) infinite;
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
   animation: 
-    cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
-    pressEffect 15s steps(15) infinite,
+    cycleStampsAlt 15s steps(3) infinite,
     peelOff 15s steps(15) infinite;
 }
 @keyframes diagonal-flow {
@@ -127,15 +125,15 @@ body {
 }
 @keyframes peelOff {
   /* Peel starts near the last frame of a stamp's time slice */
-  0% { /* Stamp 1 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom left; }
+  0% { /* Stamp 1 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
   26.66% { /* Peel starts on stamp 1 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
-  33.33% { opacity: 0; /* Fully peeled off before next stamp */ }
+  30% { opacity: 0; /* Fully peeled off before next stamp */ }
 
-  33.34% { /* Stamp 2 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom left; }
-  66.66% { /* Peel starts on stamp 2 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
-  73.33% { opacity: 0; }
+  30.01% { /* Stamp 2 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
+  51.66% { /* Peel starts on stamp 2 end */ opacity: 0.8; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
+  66% { opacity: 0; }
 
-  73.34% { /* Stamp 3 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom left; }
+  66.01% { /* Stamp 3 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom right; }
   100% { /* Peel starts on stamp 3 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
 }
 /* Example element animation */
