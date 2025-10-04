@@ -75,12 +75,12 @@ body {
 }
 .word-animation:nth-child(2) { 
   color: yellow;
-  background-image: url(https://wallpapercave.com/wp/wp15319395.jpg);
+  background-image: url(https://wallpapercave.com/wp/wp15319395.jpg) !important;
   animation-duration: 20s;
 }
 .word-animation:nth-child(3) { 
   color: cornsilk;
-  background-image: url(https://wallpaperaccess.com/full/11410009.jpg);
+  background-image: url(https://wallpaperaccess.com/full/11410009.jpg) !important;
   animation-duration: 40s;
 }
 .cover-heading .stamp { 
