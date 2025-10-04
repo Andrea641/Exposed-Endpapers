@@ -75,7 +75,7 @@ body {
 }
 .word-animation:nth-child(2) { 
   color: yellow;
-  animation-duration: 20s reverse;
+  animation-duration: 20s normal;
   background-position: right top;
 }
 .word-animation:nth-child(3) { 
@@ -91,7 +91,7 @@ body {
   background-repeat: no-repeat;
   background-size: 300px 300px;
   animation: 
-    cycleStamps 15s steps(15) infinite, /* background-position animation */
+    cycleStamps 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite; 
   box-decoration-break: clone;
   margin-right: -5px;
