@@ -73,6 +73,7 @@ body {
 .word-animation:nth-child(1) { 
     color: #d76a74;
     animation-duration: 80s;
+    animation-direction: alternate;
 }
 .word-animation:nth-child(2) { 
   color: salmon;
@@ -81,6 +82,7 @@ body {
 .word-animation:nth-child(3) { 
   color: cornsilk;
   animation-duration: 75s;
+    animation-direction: alternate-reverse;
 }
 @keyframes diagonal-flow {
   0% {
