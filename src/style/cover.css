@@ -94,8 +94,7 @@ body {
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   align-items: baseline;
 }
 
