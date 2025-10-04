@@ -137,15 +137,14 @@ body {
     transform: /*translateY(-10px)*/ rotate(15deg) scale(1.1);
   }
   30.01%, 40% {
-    transform: translateY(0) rotate(-10deg) scale(0.95);
+    transform: rotate(-10deg) scale(0.95);
   } 
   40.01%, 66.65% {
     box-shadow: none;
-    transform: translateY(0) ;
   }
   66.01%, 100% {
     opacity: 1;
-    transform: translateY(0) rotate(0) scale(1);
+    transform: rotate(0) scale(1);
   }
 }
 
