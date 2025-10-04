@@ -93,6 +93,7 @@ body {
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
+  display: inline;
 }
 
 .stamp:nth-of-type(1) { 
