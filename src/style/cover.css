@@ -119,9 +119,9 @@ body {
   66.67%, 100% { background-position: -200px 0; }
 }
 @keyframes cycleStampsAlt {
-  0%, 30%   { background-position: -100px 0; }   
+  0%, 30%   { background-position: 0px -100px; }   
   30.01%, 66% { background-position: -100px -100px; } 
-  66.01%, 100%{ background-position: -100px -200px; } 
+  66.01%, 100%{ background-position: -200px -100px; } 
 }
 @keyframes peelOff {
   0% {
