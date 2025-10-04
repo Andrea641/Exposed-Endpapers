@@ -127,11 +127,19 @@ body {
 }
 @keyframes peelOff {
   0% {
-    transform: rotate(0deg) translate(0, 0) skew(0deg, 0deg);
     opacity: 1;
+    transform-origin: bottom left; /* pivot around one corner */
+    transform: rotate(0deg) skew(0deg, 0deg) translate(0,0);
+  }
+  40% {
+    transform: rotate(20deg) skew(15deg, 10deg) translate(10px, -20px);
+  }
+  70% {
+    transform: rotate(40deg) skew(-10deg, -5deg) translate(30px, -60px);
+    opacity: 0.8;
   }
   100% {
-    transform: rotate(70deg) translate(50px, -150px) skew(20deg, 20deg);
+    transform: rotate(70deg) skew(0deg, 0deg) translate(60px, -100px);
     opacity: 0;
   }
 }
