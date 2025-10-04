@@ -74,7 +74,7 @@ body {
     animation-direction: alternate;
 }
 .word-animation:nth-child(2) { 
-  color: salmon;
+  color: yellow;
   animation-duration: 50s;
 }
 .word-animation:nth-child(3) { 
