@@ -130,11 +130,11 @@ body {
 @keyframes throwStamp {
   0% {
     opacity: 0;
-    transform: translateY(200px) rotate(-60deg) scale(0.5);
+    transform: /*translateY(200px)*/ rotate(-60deg) scale(0.5);
   }
   50% {
     opacity: 1;
-    transform: translateY(-10px) rotate(15deg) scale(1.1);
+    transform: /*translateY(-10px)*/ rotate(15deg) scale(1.1);
   }
   70% {
     transform: translateY(0) rotate(-10deg) scale(0.95);
