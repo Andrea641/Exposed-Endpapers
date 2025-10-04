@@ -66,17 +66,17 @@ body {
     padding-right: 5px;
     margin-right: -5px;
 }
-.word-animation:nth-of-type(1) { 
+.word-animation:nth-child(1) { 
   color: #d76a74;
   background-image: url(https://wallpaperaccess.com/full/4528446.jpg) !important;
   animation-duration: 30s;
 }
-.word-animation:nth-of-type(2) { 
+.word-animation:nth-child(2) { 
   color: yellow;
   background-image: url(https://wallpapercave.com/wp/wp15319395.jpg) !important;
   animation-duration: 20s;
 }
-.word-animation:nth-of-type(3) { 
+.word-animation:nth-child(3) { 
   color: white;
   background-image: url(https://wallpapercave.com/wp/wp15319395.jpg) !important;
   animation-duration: 40s;
