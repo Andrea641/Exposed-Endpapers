@@ -56,7 +56,7 @@ body {
   text-align: center;
 }.word-animation {
     background-color: #101d24;
-    background-image: url(https://sthgroup.com/wp-content/uploads/2022/11/img-blog-3-1024x683.jpg);
+    background-image: url(https://wallpapercave.com/wp/wp7908156.jpg);
     background-repeat: repeat;
     background-size: 2048px;
     animation: 71s diagonal-flow infinite linear;    
@@ -67,7 +67,6 @@ body {
     box-decoration-break: clone;
     padding-right: 5px;
     margin-right: -5px;
-    color: #d76a74;
 }
 .word-animation:nth-child(1) { 
     color: #d76a74;
