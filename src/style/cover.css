@@ -91,8 +91,7 @@ body {
   background-size: 300px 300px;
   animation: 
     cycleStamps 3s steps(3) infinite, /* background-position animation */
-    pressEffect 3s steps(3) infinite,
-    floatMove 6s ease-in-out infinite; /* element animation */  
+    pressEffect 3s steps(3) infinite; 
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
@@ -135,7 +134,7 @@ body {
 }
 
 /* Example element animation */
-@keyframes floatMove {
+@keyframes move {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-10px); }
 }
