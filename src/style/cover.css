@@ -101,14 +101,14 @@ body {
   animation: 
     cycleStamps 15s steps(3) infinite,
     pressEffect 15s steps(15) infinite, 
-    peelOff 3s ease forwards infinite; 
+    peelOff 15s steps(15) infinite, 
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite, /* background-position animation */
     pressEffect 15s steps(15) infinite,
-    peelOff 3s ease forwards infinite;
+    peelOff 15s steps(15) infinite, 
 }
 @keyframes diagonal-flow {
   0%   {   background-position: 100% 100%;  }
@@ -126,22 +126,17 @@ body {
   66.01%, 100%{ background-position: -100px -200px; } 
 }
 @keyframes peelOff {
-  0% {
-    opacity: 1;
-    transform-origin: bottom left; /* pivot around one corner */
-    transform: rotate(0deg) skew(0deg, 0deg) translate(0,0);
-  }
-  40% {
-    transform: rotate(20deg) skew(15deg, 10deg) translate(10px, -20px);
-  }
-  70% {
-    transform: rotate(40deg) skew(-10deg, -5deg) translate(30px, -60px);
-    opacity: 0.8;
-  }
-  100% {
-    transform: rotate(70deg) skew(0deg, 0deg) translate(60px, -100px);
-    opacity: 0;
-  }
+  /* Peel starts near the last frame of a stamp's time slice */
+  0% { /* Stamp 1 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom left; }
+  26.66% { /* Peel starts on stamp 1 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
+  33.33% { opacity: 0; /* Fully peeled off before next stamp */ }
+
+  33.34% { /* Stamp 2 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom left; }
+  66.66% { /* Peel starts on stamp 2 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
+  73.33% { opacity: 0; }
+
+  73.34% { /* Stamp 3 normal */ opacity: 1; transform: rotate(0deg) skew(0deg,0deg) translate(0,0); transform-origin: bottom left; }
+  100% { /* Peel starts on stamp 3 end */ opacity: 1; transform: rotate(70deg) skew(-10deg, -5deg) translate(60px, -100px); }
 }
 /* Example element animation */
 @keyframes throwStamp {
