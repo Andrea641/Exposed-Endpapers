@@ -57,7 +57,7 @@ body {
 }.word-animation {
     background-color: white;
     background-image: url(https://wallpaperaccess.com/full/4528446.jpg);
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-size: 6000px 4000px;
     animation: diagonal-flow infinite linear;    
     -webkit-text-fill-color: transparent;
@@ -89,7 +89,7 @@ body {
   width: 100px;
   height: 100px;
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
-  background-repeat: round;
+  background-repeat: no-repeat;
   background-size: 300px 300px;
   animation: 
     cycleStamps 15s steps(3) infinite, /* background-position animation */
