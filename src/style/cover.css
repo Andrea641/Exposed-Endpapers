@@ -84,16 +84,17 @@ body {
 }
 .cover-heading .stamp { 
   display: inline-flex;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-image: url(https://wallpapercave.com/wp/wp4550078.jpg);
   background-repeat: no-repeat;
-  background-size: 600px 600px;
-  animation: cycleStamps 4s steps(4) infinite, /* background-position animation */
+  background-size: 300px 300px;
+  animation: cycleStamps 3s steps(3) infinite, /* background-position animation */
             floatMove 6s ease-in-out infinite; /* element animation */  
   box-decoration-break: clone;
   margin-right: -5px;
   border-radius: 5px;
+  align-items: baseline;
 }
 .stamp:before {
   display: block;
