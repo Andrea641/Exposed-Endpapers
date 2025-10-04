@@ -72,17 +72,14 @@ body {
 }
 .word-animation:nth-child(1) { 
     color: #d76a74;
-    animation-delay: 10s;
     animation-duration: 80s;
 }
 .word-animation:nth-child(2) { 
   color: salmon;
-  animation-delay: 5s; 
   animation-duration: 60s;
 }
 .word-animation:nth-child(3) { 
   color: cornsilk;
-  animation-delay: 15s; 
   animation-duration: 75s;
 }
 @keyframes diagonal-flow {
