@@ -76,7 +76,6 @@ body {
 .word-animation:nth-child(2) { 
   color: yellow;
   animation-duration: 20s normal;
-  background-position: right top;
 }
 .word-animation:nth-child(3) { 
   color: cornsilk;
@@ -111,7 +110,7 @@ body {
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
 @keyframes cycleStamps {
   0%, 30%   { background-position: 0 0; }   
-  33.33%, 60% { background-position: -100px 0; } 
+  30.33%, 60% { background-position: -100px 0; } 
   66.66%, 100%{ background-position: -200px 0; } 
 }
 
