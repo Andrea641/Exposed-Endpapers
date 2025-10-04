@@ -97,7 +97,7 @@ body {
   margin-right: -5px;
   border-radius: 5px;
   align-items: baseline;
-}
+}/*
 .stamp:before {
   display: block;
   content: "";
@@ -117,7 +117,7 @@ body {
   width: 200px;
   height: 40px;
   z-index: -1;
-}
+}*/
 .cover-heading .stamp:hover { margin-right: unset !important; }
 @keyframes diagonal-flow {
   0% {
