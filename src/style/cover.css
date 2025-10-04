@@ -86,10 +86,10 @@ body {
 }
 @keyframes diagonal-flow {
   0% {
-    background-position: 128px 128px;
+    background-position: 0px 0px;
   }
   100% {
-      background-position: -1024px 700px;
+      background-position: 1024px 700px;
   }
 }
 /*
