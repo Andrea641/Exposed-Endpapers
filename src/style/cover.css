@@ -69,19 +69,22 @@ body {
   color: #d76a74;
   background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
   /*background-image: url(https://wallpaperaccess.com/full/4528446.jpg) !important;*/
+  background-size: 6000px 4000px;
   animation-duration: 30s;
   animation-delay: 10s;
   animation-direction: reverse;
 }
 .word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
   color: yellow;
-  background-image: url(https://avatars.yandex.net/get-music-content/2350646/0402e0d9.a.10562463-1/m1000x1000?webp=false) !important;
+  background-image: url(https://pic.vjshi.com/2019-10-24/afb59aecc4e11bce8150dfaba30d3d41/online/66704e682504f12a99f0076461a31025.jpg) !important;
+  background-size: 2450px 1440px;
   animation-duration: 20s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
   color: yellow;
-  background-image: url(https://avatars.yandex.net/get-music-content/2350646/0402e0d9.a.10562463-1/m1000x1000?webp=false) !important;
+  background-image: url(https://pic.vjshi.com/2019-10-24/afb59aecc4e11bce8150dfaba30d3d41/online/66704e682504f12a99f0076461a31025.jpg) !important;
+  background-size: 2450px 1440px;
   animation-duration: 20s;
 }
 
@@ -266,7 +269,7 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-.lead > a{
+.lead .btn-lg{
   margin-left: auto;
   margin-right: auto;
 }
