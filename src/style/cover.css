@@ -64,6 +64,7 @@ body {
     box-decoration-break: clone;
     padding-right: 5px;
     animation-delay: 5s;
+    filter: brightness(150%);
 }.word-animation::before {
   background-image: inherit; 
   background-repeat: no-repeat;
