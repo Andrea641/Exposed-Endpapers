@@ -75,14 +75,14 @@ body {
 .word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
   background-image: url(https://t4.ftcdn.net/jpg/14/69/09/99/360_F_1469099908_Qo8GxwR5FumptaKWO3WAHJsjPxgEoqpT.jpg) !important;
   background-size: 1024px 1024px;
-  filter: blur(60%) !important;
+  filter: blur(10px) !important;
   animation-duration: 20s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
   background-image: url(https://t4.ftcdn.net/jpg/14/69/09/99/360_F_1469099908_Qo8GxwR5FumptaKWO3WAHJsjPxgEoqpT.jpg) !important;
   background-size: 1024px 1024px;
-  filter: blur(60%) !important;
+  filter: blur(10px) !important;
   animation-duration: 20s;
 }
 
