@@ -102,7 +102,7 @@ body {
   margin-right: -5px;
   border-radius: 5px;
   display: block;
-  transition: ease-in-out scale 4s;
+  transition: transform 4s ease-in-out ;
 }
 .stamp:hover{ transform: scale(2); }
 .stamp:nth-of-type(1) { 
