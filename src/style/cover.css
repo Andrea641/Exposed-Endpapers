@@ -99,16 +99,16 @@ body {
 .stamp:nth-of-type(1) { 
   float: inline-start;
   animation: 
-    cycleStamps 15s steps(3) infinite,
-    peelOffAlt 5s ease-out infinite;
+    cycleStamps 18s steps(9) infinite,
+    peelOffAlt 8s ease-out infinite;
     /*peel 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s infinite normal none;*/
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
   background-image: url(https://itemimg.com/i/264759088.0.208x208.jpg);
   animation: 
-    cycleStampsAlt 15s steps(3) infinite, 
-    peelOff 5s ease-out infinite;
+    cycleStampsAlt 18s steps(9) infinite, 
+    peelOff 8s ease-out infinite;
   will-change: transform, opacity, background-position;
 }
 @keyframes diagonal-flow {
