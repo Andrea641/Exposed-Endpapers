@@ -106,7 +106,7 @@ body {
   float: inline-end;
   animation: 
     cycleStampsAlt 15s steps(3) infinite, 
-    peelOff 15s ease-out infinite;
+    peelOff 5s ease-out infinite;
   will-change: transform, opacity, background-position;
 }
 @keyframes diagonal-flow {
