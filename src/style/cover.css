@@ -105,6 +105,7 @@ body {
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
+  background-image: url(https://itemimg.com/i/264759088.0.208x208.jpg);
   animation: 
     cycleStampsAlt 15s steps(3) infinite, 
     peelOff 5s ease-out infinite;
@@ -129,8 +130,7 @@ body {
   77.78%, 88.88% { background-position: -100px -200px; } /* 8th (col 2, row 3) */
   88.89%, 100%   { background-position: -200px -200px; } /* 9th (col 3, row 3) */
 }
-}
-@keyframes cycleStampsAlt {
+@keyframes cycleStampsAlt {  
   0%, 33.33%   { background-position: -200px -200px; }   
   33.34%, 66.66% { background-position: -100px -200px; } 
   66.67%, 100%{ background-position: 0px -200px; } 
