@@ -77,14 +77,14 @@ body {
 .word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
   color: yellow;
   background-image: url(https://masterpiecer-images.s3.yandex.net/54b656e9ac7611eeb7b19a51075693d9:upscaled) !important;
-  background-size: 3000px 2000px;
+  background-size: 1024px 1024px;
   animation-duration: 20s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
   color: yellow;
   background-image: url(https://masterpiecer-images.s3.yandex.net/54b656e9ac7611eeb7b19a51075693d9:upscaled) !important;
-  background-size: 3000px 2000px;
+  background-size: 1024px 1024px;
   animation-duration: 20s;
 }
 
