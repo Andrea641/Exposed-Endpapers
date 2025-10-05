@@ -78,7 +78,7 @@ body {
   color: yellow;
   background-image: url(https://i.pinimg.com/originals/0d/d9/0f/0dd90f54d75126f60b67399e465f9b1c.jpg) !important;
   background-size: 1024px 1024px;
-  backdrop-filter: blur(40%);
+  filter: blur(40%);
   animation-duration: 20s;
   margin-left: -100px;
 }
@@ -86,7 +86,7 @@ body {
   color: yellow;
   background-image: url(https://i.pinimg.com/originals/0d/d9/0f/0dd90f54d75126f60b67399e465f9b1c.jpg) !important;
   background-size: 1024px 1024px;
-  backdrop-filter: blur(40%);
+  filter: blur(40%);
   animation-duration: 20s;
 }
 
