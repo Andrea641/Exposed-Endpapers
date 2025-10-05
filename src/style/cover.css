@@ -102,14 +102,15 @@ body {
   margin-right: -5px;
   border-radius: 5px;
   display: block;
+  transition: ease-in-out scale 4s;
 }
-
+.stamp:hover{ transform: scale(2); }
 .stamp:nth-of-type(1) { 
   float: inline-start;
   animation: 
     cycleStamps 36s steps(9) infinite,
     peelOffAlt 4s ease-out infinite;
-    /*peel 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s infinite normal none;*/
+  will-change: transform, opacity, background-position;
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
