@@ -112,7 +112,7 @@ body {
   float: inline-start;
   animation: 
     cycleStamps 36s steps(9) infinite,
-    peelOffAlt 4s ease-out infinite;
+    peelOffAlt 4s ease-in infinite;
   will-change: transform, opacity, background-position;
 }
 .stamp:nth-of-type(2) { 
@@ -120,7 +120,7 @@ body {
   background-image: url(https://itemimg.com/i/264759088.0.208x208.jpg);
   animation: 
     cycleStamps 27s steps(9) infinite, 
-    peelOff 3s ease-out infinite;
+    peelOff 3s ease-in infinite;
   will-change: transform, opacity, background-position;
 }
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
