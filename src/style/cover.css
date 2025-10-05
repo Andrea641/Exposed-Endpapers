@@ -73,15 +73,15 @@ body {
   animation-delay: 10s;
   animation-direction: reverse;
 }
-.word-animation:nth-of-type(2) { /* "Shared" */
+.word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
   color: yellow;
-  background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
+  background-image: url(https://avatars.yandex.net/get-music-content/2350646/0402e0d9.a.10562463-1/m1000x1000?webp=false) !important;
   animation-duration: 20s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
   color: yellow;
-  background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
+  background-image: url(https://avatars.yandex.net/get-music-content/2350646/0402e0d9.a.10562463-1/m1000x1000?webp=false) !important;
   animation-duration: 20s;
 }
 
