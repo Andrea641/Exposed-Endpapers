@@ -104,7 +104,7 @@ body {
   display: block;
   transition: box-shadow 2s linear;
 }
-.stamp:hover{ box-shadow: 2px 2px 5px lightblue; }
+.stamp:hover{ box-shadow: 2px 2px 8px lightblue; }
 .stamp:nth-of-type(1) { 
   float: inline-start;
   animation: 
