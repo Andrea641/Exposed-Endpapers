@@ -64,31 +64,26 @@ body {
     background-clip: text;
     box-decoration-break: clone;
     padding-right: 5px;
+    animation-delay: 5s;
 }
 .word-animation:nth-of-type(1) { /* "Recover" */
-  color: #d76a74;
   background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
   /*background-image: url(https://wallpaperaccess.com/full/4528446.jpg) !important;*/
   background-size: 6000px 4000px;
   animation-duration: 30s;
-  animation-delay: 5s;
   animation-direction: reverse;
 }
 .word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
-  color: yellow;
   background-image: url(https://t4.ftcdn.net/jpg/14/69/09/99/360_F_1469099908_Qo8GxwR5FumptaKWO3WAHJsjPxgEoqpT.jpg) !important;
   background-size: 1024px 1024px;
-  filter: blur(60%);
+  filter: blur(60%) !important;
   animation-duration: 20s;
-  animation-delay: 5s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
-  color: yellow;
   background-image: url(https://t4.ftcdn.net/jpg/14/69/09/99/360_F_1469099908_Qo8GxwR5FumptaKWO3WAHJsjPxgEoqpT.jpg) !important;
   background-size: 1024px 1024px;
-  filter: blur(60%);
-  animation-delay: 5s;
+  filter: blur(60%) !important;
   animation-duration: 20s;
 }
 
