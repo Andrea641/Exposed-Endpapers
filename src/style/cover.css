@@ -81,13 +81,13 @@ body {
   animation-direction: reverse;
 }
 .word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
-  background-image: url(https://services.meteored.com/img/article/mas-alla-via-lactea-hombre-explora-galaxias-distantes-busqueda-vida-inteligente-espacio-universo-1725179222326_1024.jpg) !important;
+  background-image: url(https://i.ytimg.com/vi/Pyre7Fg6O1A/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gTigTMA8=&amp;rs=AOn4CLC-q5XkfZVeuKLZAARHKgZSyGjxQg) !important;
   background-size: 1024px 1024px;
   animation-duration: 20s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
-  background-image: url(https://services.meteored.com/img/article/mas-alla-via-lactea-hombre-explora-galaxias-distantes-busqueda-vida-inteligente-espacio-universo-1725179222326_1024.jpg) !important;
+  background-image: url(https://i.ytimg.com/vi/Pyre7Fg6O1A/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gTigTMA8=&amp;rs=AOn4CLC-q5XkfZVeuKLZAARHKgZSyGjxQg) !important;
   background-size: 1024px 1024px;
   animation-duration: 20s;
 }
