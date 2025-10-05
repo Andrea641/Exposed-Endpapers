@@ -76,14 +76,14 @@ body {
 }
 .word-animation:nth-of-type(2) { /* "Shared" https://wallpapercave.com/wp/wp15178531.webp*/
   color: yellow;
-  background-image: url(https://pic.vjshi.com/2019-10-24/afb59aecc4e11bce8150dfaba30d3d41/online/66704e682504f12a99f0076461a31025.jpg) !important;
+  background-image: url(https://pic.vjshi.com/2019-10-24/afb59aecc4e11bce8150dfaba30d3d41/online/66704e682504f12a99f0076461a31025.jpg?x-oss-process=style/resize_w_720) !important;
   background-size: 2450px 1440px;
   animation-duration: 20s;
   margin-left: -100px;
 }
 .word-animation:nth-of-type(3) { /* "Journaling" */
   color: yellow;
-  background-image: url(https://pic.vjshi.com/2019-10-24/afb59aecc4e11bce8150dfaba30d3d41/online/66704e682504f12a99f0076461a31025.jpg) !important;
+  background-image: url(https://pic.vjshi.com/2019-10-24/afb59aecc4e11bce8150dfaba30d3d41/online/66704e682504f12a99f0076461a31025.jpg?x-oss-process=style/resize_w_720) !important;
   background-size: 2450px 1440px;
   animation-duration: 20s;
 }
