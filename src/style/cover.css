@@ -130,7 +130,7 @@ body {
   51%, 100% { transform: translateY(-50px) translateX(-50px); opacity: 0;} 
 }
 @keyframes peelOff {
-  0%, 79% {
+  0%, 79.99% {
     opacity: 1;
     transform-origin: bottom left;
     transform: rotate(0deg) skew(0deg, 0deg) translate(0, 0);
