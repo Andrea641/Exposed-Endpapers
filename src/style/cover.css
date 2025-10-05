@@ -150,7 +150,7 @@ body {
     /* fully peeled off and vanished */
     opacity: 0;
     transform-origin: bottom left;
-    transform: rotate(110deg) skew(20deg, 15deg) translate(120px, -200px);
+    transform: rotate(90deg) skew(20deg, 15deg) translate(150px, -200px);
   }
 }
 
