@@ -84,6 +84,14 @@ body {
   background-image: url(https://wallpapercave.com/wp/wp15178531.webp) !important;
   animation-duration: 20s;
 }
+
+@keyframes diagonal-flow {
+  0%   {   background-position: 100% 100%;  }
+  100% {   background-position: 0px 0px;  }
+}
+
+
+
 .cover .stamp { 
   width: 100px;
   height: 100px;
@@ -100,7 +108,7 @@ body {
   float: inline-start;
   animation: 
     cycleStamps 18s steps(9) infinite,
-    peelOffAlt 8s ease-out infinite;
+    peelOffAlt 18s ease-out infinite;
     /*peel 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s infinite normal none;*/
 }
 .stamp:nth-of-type(2) { 
@@ -108,12 +116,8 @@ body {
   background-image: url(https://itemimg.com/i/264759088.0.208x208.jpg);
   animation: 
     cycleStamps 18s steps(9) infinite, 
-    peelOff 8s ease-out infinite;
+    peelOff 18s ease-out infinite;
   will-change: transform, opacity, background-position;
-}
-@keyframes diagonal-flow {
-  0%   {   background-position: 100% 100%;  }
-  100% {   background-position: 0px 0px;  }
 }
 /* Animate background-position to cycle through a 3-frame horizontal sprite */
 @keyframes cycleStamps {
@@ -130,15 +134,7 @@ body {
   77.78%, 88.88% { background-position: -100px -200px; } /* 8th (col 2, row 3) */
   88.89%, 100%   { background-position: -200px -200px; } /* 9th (col 3, row 3) */
 }
-@keyframes cycleStampsAlt {  
-  0%, 33.33%   { background-position: -200px -200px; }   
-  33.34%, 66.66% { background-position: -100px -200px; } 
-  66.67%, 100%{ background-position: 0px -200px; } 
-}
-@keyframes peel {
-  0%, 40% { transform: translateY(0) translateX(0); opacity: 1; } 
-  51%, 100% { transform: translateY(-50px) translateX(-50px); opacity: 0;} 
-}
+
 @keyframes peelOff {
   0%, 79.99% {
     opacity: 1;
@@ -189,6 +185,16 @@ body {
     transform: rotate(-50deg) skew(15deg, 20deg) translate(-150px, 200px);
   }
 }
+/*
+@keyframes cycleStampsAlt {  
+  0%, 33.33%   { background-position: -200px -200px; }   
+  33.34%, 66.66% { background-position: -100px -200px; } 
+  66.67%, 100%{ background-position: 0px -200px; } 
+}
+@keyframes peel {
+  0%, 40% { transform: translateY(0) translateX(0); opacity: 1; } 
+  51%, 100% { transform: translateY(-50px) translateX(-50px); opacity: 0;} 
+}*/
 
 /** Header */
 .masthead {
