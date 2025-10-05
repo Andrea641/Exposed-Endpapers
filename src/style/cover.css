@@ -64,6 +64,14 @@ body {
     box-decoration-break: clone;
     padding-right: 5px;
     animation-delay: 5s;
+}.word-animation::before {
+  background-image: inherit; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  opacity: 0.8;
 }
 .word-animation:nth-of-type(1) { /* "Recover" */
   background-image: url(https://wallpaperaccess.com/download/gradient-ipad-11410009) !important;
