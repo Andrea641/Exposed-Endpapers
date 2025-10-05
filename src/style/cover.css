@@ -56,7 +56,6 @@ body {
   text-align: center;
 }.word-animation {
     background-repeat: no-repeat;
-    background-size: 6000px 4000px;
     animation: diagonal-flow infinite linear;    
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
