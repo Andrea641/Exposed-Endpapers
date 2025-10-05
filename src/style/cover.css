@@ -100,7 +100,8 @@ body {
   float: inline-start;
   animation: 
     cycleStamps 15s steps(3) infinite,
-    peel 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s infinite normal none;
+    peelOff 5s ease-out infinite;
+    /*peel 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s infinite normal none;*/
 }
 .stamp:nth-of-type(2) { 
   float: inline-end;
