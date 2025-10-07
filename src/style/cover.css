@@ -294,7 +294,7 @@ main{ overflow-y: scroll !important;}
   display: block;
 }
 .mastfoot > * {
-  display: none !important;
+  display: none;
 }.mastfoot .inner{
   font-size: 20%;
   padding: 5%;
