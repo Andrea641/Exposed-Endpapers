@@ -284,11 +284,13 @@ main{ overflow-y: scroll !important;}
 /*
  * Footer
  */
-.mastfoot:hover{
-  display: block;
+.mastfoot  {
   color: rgba(255, 255, 255, .5);
 }
-.mastfoot {
+.mastfoot:hover > *{
+  display: block;
+}
+.mastfoot > * {
   display: none !important;
 }.mastfoot .inner{
   font-size: 20%;
