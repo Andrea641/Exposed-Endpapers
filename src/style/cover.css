@@ -286,4 +286,5 @@ main{ overflow-y: scroll !important;}
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  font-size: 20%;
 }
