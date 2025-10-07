@@ -278,6 +278,7 @@ main{ overflow-y: scroll !important;}
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
 }
 .task-done{
   display: none;
