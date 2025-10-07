@@ -286,6 +286,7 @@ main{ overflow-y: scroll !important;}
  */
 .mastfoot  {
   color: rgba(255, 255, 255, .5);
+  height: 5%;
 }
 .mastfoot:hover > *{
   display: block;
