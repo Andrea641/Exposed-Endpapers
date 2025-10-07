@@ -288,11 +288,12 @@ main{ overflow-y: scroll !important;}
  */
 .mastfoot  {
   color: rgba(255, 255, 255, .5);
-  height: 5vh;
+  height: 10vh;
+}.mastfoot:hover{
+  height: fit-content !important;
 }
 .mastfoot:hover > *{
   display: block;
-  height: fit-content !important;
 }
 .mastfoot > * {
   display: none;
