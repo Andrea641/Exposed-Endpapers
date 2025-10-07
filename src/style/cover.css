@@ -292,6 +292,7 @@ main{ overflow-y: scroll !important;}
 }
 .mastfoot:hover > *{
   display: block;
+  height: fit-content !important;
 }
 .mastfoot > * {
   display: none;
