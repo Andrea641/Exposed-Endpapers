@@ -276,7 +276,7 @@ main{ overflow-y: scroll !important;}
 }
 .lead { 
   width: fit-content;
-  margin: 10% auto 20% auto;
+  margin: 8% auto 20% auto;
   border-radius: 2px;
 }
 .task-done{
