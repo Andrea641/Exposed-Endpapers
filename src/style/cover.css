@@ -279,6 +279,7 @@ main{ overflow-y: scroll !important;}
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10%;
+  border-radius: 2px;
 }
 .task-done{
   display: none;
