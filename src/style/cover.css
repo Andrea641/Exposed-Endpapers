@@ -276,10 +276,7 @@ main{ overflow-y: scroll !important;}
 }
 .lead { 
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10%;
-  border-radius: 2px;
+  margin: 20% auto;
 }
 .task-done{
   display: none;
