@@ -279,7 +279,9 @@ main{ overflow-y: scroll !important;}
   margin-left: auto;
   margin-right: auto;
 }
-
+.task-done{
+  display: none;
+}
 
 /*
  * Footer
