@@ -46,6 +46,7 @@ main{ overflow-y: scroll !important;}
 u{
   padding: 2px;
   text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+  color: lightseagreen;
 }
 .typewriter h1 {
   overflow-x: hidden; /* Ensures the content is not revealed until the animation */
