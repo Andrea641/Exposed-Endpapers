@@ -39,9 +39,8 @@
         </div>
         <h2 style="text-align: center;">Wireframes & Flow</h2>
         <p>The following is the the result of the design process for the user interface of the mobile application. After carefully going through the iterations of the sketches was the wireframe created. After that we added the flow. </p>
-         <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap:5px;">
+         <div class="container">
           <img src="../images/Mini-project - User Flow.jpg" width="100%"/>
-          <img src="../images/Mini-project - Wireframe.jpg" width="100%"/>
         </div>
         <h2 style="text-align: center;">Mockups/Prototypes </h2>
         <p>This final iteration on figma is the final chosen design for the user interface of the mobile application. After carefully going through the previous iterations and going into color theory, we have concluded to go with this default look of warm and cozy tones but feel that it is best to ultimately leave the theme as a user choice. Here is an overview. </p>
@@ -53,7 +52,23 @@
         </div>
       </footer>
     </div>
+    <script>
+    const img = document.querySelector('.container img');
+    const container = document.querySelector('.container');
 
+    container.addEventListener('mousemove', e => {
+      const rect = container.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.transform = 'scale(2)';
+    });
+
+    container.addEventListener('mouseleave', () => {
+      img.style.transform = 'scale(1)';
+      img.style.transformOrigin = 'center center';
+    });
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <style>::-webkit-scrollbar{width:0px; height:3px;} ::-webkit-scrollbar-thumb{background-color:#c1c1c1;} ::-webkit-scrollbar-thumb:hover{background-color:#666;} *{scrollbar-width:none!important;}</style>
     
