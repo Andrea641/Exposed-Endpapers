@@ -51,7 +51,7 @@ u{
 .typewriter h1 {
   overflow-x: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: wrap; /* Keeps the content on a single line */
+  white-space: nowrap; /* Keeps the content on a single line */
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -59,8 +59,8 @@ u{
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; }
+  to { width: 100%; white-space: wrap; }
 }
 
 /* The typewriter cursor effect */
