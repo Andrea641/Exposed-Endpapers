@@ -49,6 +49,9 @@ main{ overflow-y: scroll !important;}
   display: flex;
   flex-direction: column;
 }
+.cover-heading{
+  font-size: 75px;
+}
 .cover-heading.hook{
   font-family: Helvetica, sans-serif;
   font-weight: 900;
