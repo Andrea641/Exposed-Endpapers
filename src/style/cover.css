@@ -49,16 +49,14 @@ u{
   color: lightseagreen;
 }
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-   /* Keeps the content on a single line */
+  overflow: hidden; 
+  border-right: .15em solid orange; 
 }
 .typewriter h1.first {
   opacity: 0; width: 0;
   animation: 
     typing 3.5s steps(40, end) forwards,
     blink-caret .75s step-end infinite;
-  animation-delay: 3.5s; 
 }
 .typewriter h1.second {
   opacity: 0; width: 0;
