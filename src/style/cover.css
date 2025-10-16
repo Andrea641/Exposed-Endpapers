@@ -78,6 +78,7 @@ u{
 .cover-heading{
   width: 50%;
   font-size: 55px;
+  text-wrap: wrap;
 }
 .cover-heading.hook{
   font-family: Helvetica, sans-serif;
