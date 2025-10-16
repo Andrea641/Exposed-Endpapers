@@ -55,6 +55,7 @@ u{
   opacity: 1;
 }
 .typewriter h1.first {
+  white-space: nowrap;
   animation: 
     typing 3.5s steps(40, end) forwards,
     blink-caret .75s step-end infinite;
