@@ -90,8 +90,7 @@ u{
 }
 .cover-heading{
   width: 60%;
-  max-height: min-content;
-  /*height: 120px;*/
+  max-height: 120px;
   font-size: 55px;
   text-wrap: wrap;
   text-align: left;
