@@ -48,7 +48,7 @@ u{
   text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
 }
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow-x: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   animation: 
