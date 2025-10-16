@@ -58,13 +58,13 @@ u{
 }
 .typewriter h1.second {
   opacity: 0; 
-  overflow-x: hidden;
-  border-right: .15em solid orange;
+  width:0;
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+  animation-delay: 3.5s; 
 }
-.typewriter h1:nth-child(2) {   animation-delay: 3.5s; animation: reveal 0s forwards 6s;}
+.typewriter h1:nth-child(2) {   animation: reveal 0s forwards 6s;}
 @keyframes reveal {
   from { opacity: 0; }
   to { opacity: 1; }
