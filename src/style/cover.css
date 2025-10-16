@@ -51,7 +51,6 @@ u{
 .typewriter h1 {
   overflow: hidden; 
   border-right: .15em solid orange; 
-  white-space: nowrap;
   width: 0;
   opacity: 1;
 }
