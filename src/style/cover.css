@@ -54,6 +54,7 @@ main{ overflow-y: scroll !important;}
   font-weight: 900;
   font-size: 60px;
   text-align: center;
+  padding: 0 5%;
 }.word-animation {
     background-repeat: no-repeat;
     animation: diagonal-flow infinite linear;    
