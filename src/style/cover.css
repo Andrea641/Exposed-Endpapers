@@ -301,3 +301,10 @@ main{ overflow-y: scroll !important;}
   font-size: 20%;
   padding: 5%;
 }
+img {
+    transition: transform 0.25s ease;
+}
+
+img:active {
+    transform: scale(2);
+}
