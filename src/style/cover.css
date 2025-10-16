@@ -56,14 +56,13 @@ u{
   opacity: 1;
 }
 .typewriter h1.first {
-  opacity: 0; width: 0;
   animation: 
     typing 3.5s steps(40, end) forwards,
     blink-caret .75s step-end infinite;
   animation-delay: 0s;
 }
 .typewriter h1.second {
-  opacity: 0; width: 0;
+  opacity: 0;
   animation: 
     reveal 0.01s forwards 3.5s,
     typing 3.5s steps(40, end) forwards 3.5s,
