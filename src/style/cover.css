@@ -91,7 +91,7 @@ u{
   display: flex;
   flex-direction: column;
 }
-.cover-heading{
+.cover-head{
   width: 60%;
   font-size: 55px;
   text-wrap: wrap;
