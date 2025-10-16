@@ -301,10 +301,11 @@ main{ overflow-y: scroll !important;}
   font-size: 20%;
   padding: 5%;
 }
-img {
-    transition: transform 0.25s ease; transform-origin: left top;
+.container {
+  overflow: hidden;
+  position: relative;
 }
-
-img:active {
-    transform: scale(2);
+.container img {
+  object-fit: cover;
+  transition: transform 0.2s ease;
 }
