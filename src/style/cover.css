@@ -302,7 +302,7 @@ main{ overflow-y: scroll !important;}
   padding: 5%;
 }
 img {
-    transition: transform 0.25s ease;
+    transition: transform 0.25s ease; transform-origin: left top;
 }
 
 img:active {
